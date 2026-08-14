@@ -59,7 +59,7 @@ export class DjzsGate {
     const account = privateKeyToAccount(this.cfg.payerPrivateKey);
 
     const base = new Client({
-      name: "djzs-polymarket-gate",
+      name: "djzs-pm-gate",
       version: "1.0.0",
     });
     const transport = new StreamableHTTPClientTransport(new URL(this.cfg.endpoint));

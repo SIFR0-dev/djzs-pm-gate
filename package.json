@@ -1,7 +1,7 @@
 {
-  "name": "djzs-polymarket-gate",
+  "name": "djzs-pm-gate",
   "version": "0.1.0",
-  "description": "Gate Polymarket CLOB trades with djzs.ai's verify_pm_trade reasoning audit (MCP over x402 on Base).",
+  "description": "Gate Polymarket and Kalshi prediction-market orders behind djzs.ai's verify_pm_trade reasoning audit (MCP over x402 on Base).",
   "license": "MIT",
   "type": "module",
   "main": "dist/index.js",
@@ -17,6 +17,7 @@
     "@polymarket/clob-client": "^5.8.1",
     "agents": "0.17.3",
     "dotenv": "^16.4.5",
+    "kalshi-typescript": "^3.26.0",
     "viem": "^2.55.13"
   },
   "devDependencies": {

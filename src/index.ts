@@ -13,3 +13,9 @@ export type {
   GatedOrderOptions,
   GatedOrderResult,
 } from "./polymarket.js";
+export { GatedKalshiClient, KALSHI_DEMO, KALSHI_PRODUCTION } from "./kalshi.js";
+export type {
+  KalshiConfig,
+  GatedKalshiOrderParams,
+  GatedKalshiOrderResult,
+} from "./kalshi.js";
