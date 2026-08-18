@@ -19,3 +19,5 @@ export type {
   GatedKalshiOrderParams,
   GatedKalshiOrderResult,
 } from "./kalshi.js";
+export { KalshiMarketReader } from "./kalshi-market.js";
+export type { KalshiQuote, ListMarketsParams } from "./kalshi-market.js";
